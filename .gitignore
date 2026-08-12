@@ -1,0 +1,13 @@
+# KiCad user/session files
+*.kicad_prl
+*-backups/
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+~*.lck
+fp-info-cache
+
+# OS noise
+.DS_Store
+Thumbs.db
+Desktop.ini
