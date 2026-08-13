@@ -833,7 +833,535 @@
 (type default))
 					(fill
 (type none))))
-(embedded_fonts no)))
+(embedded_fonts no))
+		(symbol "FrontEnd_Custom:BPW34_Vishay"
+				(pin_names
+					(offset 1.016)
+				)
+				(exclude_from_sim no)
+				(in_bom yes)
+				(on_board yes)
+				(in_pos_files yes)
+				(duplicate_pin_numbers_are_jumpers no)
+				(property "Reference" "D"
+					(at 0.508 1.778 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(property "Value" "BPW34"
+					(at -1.016 -2.794 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Footprint" "FrontEnd_Footprints:BPW34_Vishay_P5.10mm"
+					(at 0 4.445 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Datasheet" "https://www.vishay.com/docs/81521/bpw34.pdf"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Description" "Vishay BPW34 silicon PIN photodiode; project pin numbering: 1=A, 2=K"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Manufacturer" "Vishay"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "MPN" "BPW34"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "LCSC" "C85128"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_keywords" "Vishay BPW34 PIN photodiode"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_fp_filters" "BPW34_Vishay_P5.10mm"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(symbol "BPW34_Vishay_0_1"
+					(polyline
+						(pts
+							(xy -2.54 1.27) (xy -2.54 -1.27)
+						)
+						(stroke
+							(width 0.1524)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy -2.032 1.778) (xy -1.524 1.778)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy -0.508 3.302) (xy -2.032 1.778) (xy -2.032 2.286)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 0 0) (xy -2.54 0)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 0 -1.27) (xy 0 1.27)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 0.762 3.302) (xy -0.762 1.778) (xy -0.762 2.286) (xy -0.762 1.778) (xy -0.254 1.778)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+				)
+				(symbol "BPW34_Vishay_1_1"
+					(pin passive line
+						(at -5.08 0 0)
+						(length 2.54)
+						(name "K"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 2.54 0 180)
+						(length 2.54)
+						(name "A"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(embedded_fonts no)
+			)
+		(symbol "FrontEnd_Custom:OPA381AIDGKR"
+				(pin_names
+					(offset 0.127)
+				)
+				(exclude_from_sim no)
+				(in_bom yes)
+				(on_board yes)
+				(in_pos_files yes)
+				(duplicate_pin_numbers_are_jumpers no)
+				(property "Reference" "U"
+					(at 0 5.08 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(property "Value" "OPA381AIDGKR"
+					(at 0 -5.08 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa381.pdf"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Description" "Texas Instruments OPA381 precision transimpedance amplifier, VSSOP-8"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Manufacturer" "Texas Instruments"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "MPN" "OPA381AIDGKR"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "LCSC" "C2870973"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_keywords" "single transimpedance operational amplifier OPA381"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_fp_filters" "VSSOP*3x3mm*P0.65mm*"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(symbol "OPA381AIDGKR_0_1"
+					(polyline
+						(pts
+							(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						)
+						(stroke
+							(width 0.254)
+							(type default)
+						)
+						(fill
+							(type background)
+						)
+					)
+					(pin no_connect line
+						(at 2.54 0 270)
+						(length 2.54)
+						(hide yes)
+						(name "NC"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin power_in line
+						(at -2.54 -7.62 90)
+						(length 3.81)
+						(name "V-"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "4"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin no_connect line
+						(at 0 2.54 270)
+						(length 2.54)
+						(hide yes)
+						(name "NC"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "5"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin power_in line
+						(at -2.54 7.62 270)
+						(length 3.81)
+						(name "V+"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "7"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin no_connect line
+						(at 0 -2.54 90)
+						(length 2.54)
+						(hide yes)
+						(name "NC"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "8"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(symbol "OPA381AIDGKR_1_1"
+					(pin input line
+						(at -7.62 -2.54 0)
+						(length 2.54)
+						(name "-IN"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin input line
+						(at -7.62 2.54 0)
+						(length 2.54)
+						(name "+IN"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "3"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin output line
+						(at 7.62 0 180)
+						(length 2.54)
+						(name "OUT"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "6"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(embedded_fonts no)
+			))
 	(wire
 		(pts
 (xy 33.02 48.26)
@@ -2659,6 +3187,985 @@
 			(project ""
 				(path "/51922d34-ad55-4a71-9876-716a226b3d21"
 (reference "#FLG0103")
+(unit 1)))))
+	(wire
+		(pts
+(xy 48.26 76.20)
+(xy 45.72 76.20))
+		(stroke
+(width 0)
+(type default))
+(uuid "68d0ed33-b788-46dc-b1ba-d5413c764546"))
+	(global_label "AGND"
+(shape bidirectional)
+(at 45.72 76.20 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "e2e4af2d-802e-43ae-9046-aff9f5cbdf9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 45.72 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 55.88 76.20)
+(xy 58.42 76.20))
+		(stroke
+(width 0)
+(type default))
+(uuid "1cc30d18-59ae-4a07-a710-dfd0d7b76280"))
+	(global_label "SUM"
+(shape bidirectional)
+(at 58.42 76.20 0)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify left))
+(uuid "42dcd1b9-468b-4d5e-8a55-ffd37a659cac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 58.42 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify left)
+(hide yes))))
+	(wire
+		(pts
+(xy 111.76 78.74)
+(xy 109.22 78.74))
+		(stroke
+(width 0)
+(type default))
+(uuid "5aa3b4eb-b219-49fe-bd28-78b9ed1fac78"))
+	(global_label "SUM"
+(shape bidirectional)
+(at 109.22 78.74 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "72a5aee0-f751-4eef-9309-d211427d7308")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 109.22 78.74 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 111.76 73.66)
+(xy 109.22 73.66))
+		(stroke
+(width 0)
+(type default))
+(uuid "cd60932c-78d6-42e3-99a5-ceb5ef6946e6"))
+	(global_label "VBIAS_1V25"
+(shape bidirectional)
+(at 109.22 73.66 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "f3aa0482-3fd9-450c-a659-6c2aa7893ecb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 109.22 73.66 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 116.84 83.82)
+(xy 114.30 83.82))
+		(stroke
+(width 0)
+(type default))
+(uuid "34ccbda0-ee2f-4392-98ca-6cabeaa86840"))
+	(global_label "AGND"
+(shape bidirectional)
+(at 114.30 83.82 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "092e7619-1f8d-4066-a5fa-85186d920709")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 114.30 83.82 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 127.00 76.20)
+(xy 129.54 76.20))
+		(stroke
+(width 0)
+(type default))
+(uuid "63d5ce83-646e-4ab7-9b7c-a095571291f7"))
+	(global_label "TIA_OUT"
+(shape bidirectional)
+(at 129.54 76.20 0)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify left))
+(uuid "37503c7b-f819-45c8-9578-91fddc9e4d96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 129.54 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify left)
+(hide yes))))
+	(wire
+		(pts
+(xy 116.84 68.58)
+(xy 114.30 68.58))
+		(stroke
+(width 0)
+(type default))
+(uuid "009bb2c5-b2a6-46d2-9143-f119d187039c"))
+	(global_label "AVDD_3V3"
+(shape bidirectional)
+(at 114.30 68.58 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "b741f9d4-3c17-4533-a885-e8ddf378043a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 114.30 68.58 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(no_connect
+(at 121.92 76.20)
+(uuid "2372314e-673e-40d4-afa8-f8f39775bca8"))
+	(no_connect
+(at 119.38 73.66)
+(uuid "85c0e4d5-c47a-4178-a4e1-1a0899a31eee"))
+	(no_connect
+(at 119.38 78.74)
+(uuid "1f6d1672-3bd5-4088-8f55-07b11de88297"))
+	(wire
+		(pts
+(xy 146.05 63.50)
+(xy 143.51 63.50))
+		(stroke
+(width 0)
+(type default))
+(uuid "39e1d937-e0f0-4822-93d1-c8363ec34792"))
+	(global_label "SUM"
+(shape bidirectional)
+(at 143.51 63.50 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "11fad7b5-cffa-464f-9835-4e8d2b151e37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 143.51 63.50 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 153.67 63.50)
+(xy 156.21 63.50))
+		(stroke
+(width 0)
+(type default))
+(uuid "d434b620-cfcd-4bfb-842d-23da18ccb3c3"))
+	(global_label "TIA_OUT"
+(shape bidirectional)
+(at 156.21 63.50 0)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify left))
+(uuid "1cac0a42-5b0c-42e6-8208-7287900a387d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 156.21 63.50 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify left)
+(hide yes))))
+	(wire
+		(pts
+(xy 146.05 71.12)
+(xy 143.51 71.12))
+		(stroke
+(width 0)
+(type default))
+(uuid "cbb26226-23fa-432e-b5b1-dc94bf0a16f9"))
+	(global_label "SUM"
+(shape bidirectional)
+(at 143.51 71.12 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "603631fd-ad38-485c-9216-2ccb956b67fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 143.51 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 153.67 71.12)
+(xy 156.21 71.12))
+		(stroke
+(width 0)
+(type default))
+(uuid "f0a6b26c-0838-466e-b0ef-efde5fbd7574"))
+	(global_label "TIA_OUT"
+(shape bidirectional)
+(at 156.21 71.12 0)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify left))
+(uuid "249134c4-614e-49d1-ae0c-81e1d6780e5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 156.21 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify left)
+(hide yes))))
+	(wire
+		(pts
+(xy 186.69 76.20)
+(xy 184.15 76.20))
+		(stroke
+(width 0)
+(type default))
+(uuid "70a44ccc-5b38-43ba-8521-7c2d2963b58d"))
+	(global_label "TIA_OUT"
+(shape bidirectional)
+(at 184.15 76.20 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "ba9a641b-dd03-4b34-956d-ab7eb7514f2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 184.15 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 194.31 76.20)
+(xy 196.85 76.20))
+		(stroke
+(width 0)
+(type default))
+(uuid "d472f859-7bd1-48df-aa84-2192141a4304"))
+	(global_label "ADC_OUT"
+(shape bidirectional)
+(at 196.85 76.20 0)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify left))
+(uuid "aa89865b-8e9d-4e60-81fb-00d289aae76b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 196.85 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify left)
+(hide yes))))
+	(wire
+		(pts
+(xy 139.70 82.55)
+(xy 137.16 82.55))
+		(stroke
+(width 0)
+(type default))
+(uuid "9c7d9652-02cb-4411-ba68-dd589e7a8540"))
+	(global_label "AVDD_3V3"
+(shape bidirectional)
+(at 137.16 82.55 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "f5ddcbd2-ac1a-44f0-bac0-67028b4a649c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 137.16 82.55 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 139.70 90.17)
+(xy 137.16 90.17))
+		(stroke
+(width 0)
+(type default))
+(uuid "eb61f455-f112-4ee8-9e21-023ac998ec35"))
+	(global_label "AGND"
+(shape bidirectional)
+(at 137.16 90.17 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "8b12502b-3503-4e74-9e00-ace38b325c57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 137.16 90.17 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 160.02 82.55)
+(xy 157.48 82.55))
+		(stroke
+(width 0)
+(type default))
+(uuid "8c4530d6-7ffd-46c0-a57c-c6b5a7a6742a"))
+	(global_label "AVDD_3V3"
+(shape bidirectional)
+(at 157.48 82.55 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "56a08f64-1db5-413c-bf22-0a267b168f1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 157.48 82.55 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 160.02 90.17)
+(xy 157.48 90.17))
+		(stroke
+(width 0)
+(type default))
+(uuid "93178720-ad2d-41d4-bf3d-b22d44562d08"))
+	(global_label "AGND"
+(shape bidirectional)
+(at 157.48 90.17 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "accbe838-f29d-4fba-a64c-3e59f062650d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 157.48 90.17 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 215.90 82.55)
+(xy 213.36 82.55))
+		(stroke
+(width 0)
+(type default))
+(uuid "eb9a0061-d4b8-4484-b29b-5f9f9e0b5d72"))
+	(global_label "ADC_OUT"
+(shape bidirectional)
+(at 213.36 82.55 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "1ed052f5-0895-434e-a803-0698fb794577")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 213.36 82.55 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(wire
+		(pts
+(xy 215.90 90.17)
+(xy 213.36 90.17))
+		(stroke
+(width 0)
+(type default))
+(uuid "b7e74d4b-a687-43d8-986d-7493ebea3651"))
+	(global_label "AGND"
+(shape bidirectional)
+(at 213.36 90.17 180)
+(fields_autoplaced yes)
+		(effects
+			(font
+(size 1.27 1.27))
+(justify right))
+(uuid "41266df4-7bc3-4c8f-94d1-e0db28b7d47f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+(at 213.36 90.17 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(justify right)
+(hide yes))))
+	(symbol
+(lib_id "FrontEnd_Custom:BPW34_Vishay")
+(at 50.80 76.20 180)
+(unit 1)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(dnp no)
+(fields_autoplaced yes)
+(uuid "abe4dd19-ac20-4b5a-8c1b-14e2527d9606")
+		(property "Reference" "D1"
+(at 48.26 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Value" "BPW34"
+(at 48.26 81.28 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Footprint" "FrontEnd_Footprints:BPW34_Vishay_P5.10mm"
+(at 50.80 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Datasheet" "https://www.vishay.com/docs/81521/bpw34.pdf"
+(at 50.80 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Description" "Vishay BPW34 silicon PIN photodiode; project pin numbering: 1=A, 2=K"
+(at 50.80 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Manufacturer" "Vishay"
+(at 50.80 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "MPN" "BPW34"
+(at 50.80 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "LCSC" "C85128"
+(at 50.80 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(pin "1"
+(uuid "ce69ccf9-9944-4e8d-9970-73130337de66"))
+		(pin "2"
+(uuid "fdb231a1-8c45-48aa-b814-73669d55ada8"))
+		(instances
+			(project ""
+				(path "/51922d34-ad55-4a71-9876-716a226b3d21"
+(reference "D1")
+(unit 1)))))
+	(symbol
+(lib_id "FrontEnd_Custom:OPA381AIDGKR")
+(at 119.38 76.20 0)
+(unit 1)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(dnp no)
+(fields_autoplaced yes)
+(uuid "d52f3291-1515-4d34-a7b6-24dc67260faf")
+		(property "Reference" "U3"
+(at 111.76 62.23 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Value" "OPA381AIDGKR"
+(at 111.76 64.77 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+(at 119.38 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa381.pdf"
+(at 119.38 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Description" "Texas Instruments OPA381 precision transimpedance amplifier, VSSOP-8"
+(at 119.38 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Manufacturer" "Texas Instruments"
+(at 119.38 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "MPN" "OPA381AIDGKR"
+(at 119.38 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "LCSC" "C2870973"
+(at 119.38 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(pin "1"
+(uuid "f16893f3-47a2-4581-b108-4ef0b611f2be"))
+		(pin "2"
+(uuid "b5035021-07ca-4211-be80-da5c8866fefb"))
+		(pin "3"
+(uuid "ad737e58-fb29-4dcf-93a3-cb9472f36f4e"))
+		(pin "4"
+(uuid "9d39ac4b-eaac-4ae1-b33d-204d5d260cbf"))
+		(pin "5"
+(uuid "3eb9d52f-b63a-49b8-9b9f-4ab2249d2153"))
+		(pin "6"
+(uuid "5d60b73c-7e62-4d41-9379-8b940411dc68"))
+		(pin "7"
+(uuid "3e39ef12-ada6-4f72-8b8d-c87c9f7d1d30"))
+		(pin "8"
+(uuid "86d19ed1-12a4-4d58-b71d-3cbda3bbf1f3"))
+		(instances
+			(project ""
+				(path "/51922d34-ad55-4a71-9876-716a226b3d21"
+(reference "U3")
+(unit 1)))))
+	(symbol
+(lib_id "Device:R")
+(at 149.86 63.50 90)
+(unit 1)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(dnp no)
+(fields_autoplaced yes)
+(uuid "2805884c-f931-4ede-a047-80f9375d1737")
+		(property "Reference" "RF1"
+(at 147.32 58.42 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Value" "1M"
+(at 147.32 60.96 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+(at 149.86 63.50 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Datasheet" "~"
+(at 149.86 63.50 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Description" ""
+(at 149.86 63.50 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Tolerance" "0.1%"
+(at 149.86 63.50 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "MPN" "RT1206BRD071ML"
+(at 149.86 63.50 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "LCSC" "C309662"
+(at 149.86 63.50 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(pin "1"
+(uuid "33569590-ad96-48e3-9b18-5d9de3f2b57d"))
+		(pin "2"
+(uuid "c6527905-5837-4efd-a00c-db29724a4028"))
+		(instances
+			(project ""
+				(path "/51922d34-ad55-4a71-9876-716a226b3d21"
+(reference "RF1")
+(unit 1)))))
+	(symbol
+(lib_id "Device:C")
+(at 149.86 71.12 90)
+(unit 1)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(dnp no)
+(fields_autoplaced yes)
+(uuid "cd19fbba-878c-4a8c-82fd-2624152cd7af")
+		(property "Reference" "CF1"
+(at 147.32 74.93 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Value" "15pF"
+(at 147.32 77.47 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+(at 149.86 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Datasheet" "~"
+(at 149.86 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Description" ""
+(at 149.86 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Dielectric" "C0G"
+(at 149.86 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "MPN" "CL10C150JB8NNNC"
+(at 149.86 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "LCSC" "C1644"
+(at 149.86 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(pin "1"
+(uuid "8573b3da-4bf4-4c71-bca6-2b97fa806552"))
+		(pin "2"
+(uuid "99c33c52-0a9a-44c3-91c3-8321f23747ed"))
+		(instances
+			(project ""
+				(path "/51922d34-ad55-4a71-9876-716a226b3d21"
+(reference "CF1")
+(unit 1)))))
+	(symbol
+(lib_id "Device:C")
+(at 139.70 86.36 180)
+(unit 1)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(dnp no)
+(fields_autoplaced yes)
+(uuid "0091003e-739f-4919-82ab-aafeec9c3dfa")
+		(property "Reference" "C10"
+(at 142.24 85.09 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Value" "100nF"
+(at 142.24 87.63 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+(at 139.70 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Datasheet" "~"
+(at 139.70 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Description" ""
+(at 139.70 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "MPN" "CL10B104KO8NNNC"
+(at 139.70 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "LCSC" "C66501"
+(at 139.70 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(pin "1"
+(uuid "718cf195-740a-4a48-9faf-fa34f9efabdf"))
+		(pin "2"
+(uuid "44b74806-c1e4-4584-ab6c-bb038931af80"))
+		(instances
+			(project ""
+				(path "/51922d34-ad55-4a71-9876-716a226b3d21"
+(reference "C10")
+(unit 1)))))
+	(symbol
+(lib_id "Device:C")
+(at 160.02 86.36 180)
+(unit 1)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(dnp no)
+(fields_autoplaced yes)
+(uuid "bf4afaff-d820-455d-b058-b688f80123fa")
+		(property "Reference" "C11"
+(at 162.56 85.09 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Value" "1uF"
+(at 162.56 87.63 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+(at 160.02 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Datasheet" "~"
+(at 160.02 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Description" ""
+(at 160.02 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "MPN" "0603B105K160CT"
+(at 160.02 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "LCSC" "C108463"
+(at 160.02 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(pin "1"
+(uuid "17b7579b-d182-4c21-9f7c-30fef8b35e15"))
+		(pin "2"
+(uuid "c27573e1-f5d8-4178-a454-9bda9f27e923"))
+		(instances
+			(project ""
+				(path "/51922d34-ad55-4a71-9876-716a226b3d21"
+(reference "C11")
+(unit 1)))))
+	(symbol
+(lib_id "Device:R")
+(at 190.50 76.20 90)
+(unit 1)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(dnp no)
+(fields_autoplaced yes)
+(uuid "9897373c-e736-41d3-8184-3f10e3d55293")
+		(property "Reference" "R2"
+(at 187.96 71.12 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Value" "1k"
+(at 187.96 73.66 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+(at 190.50 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Datasheet" "~"
+(at 190.50 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Description" ""
+(at 190.50 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Tolerance" "0.1%"
+(at 190.50 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "MPN" "RT1206BRD071KL"
+(at 190.50 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "LCSC" "C706405"
+(at 190.50 76.20 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(pin "1"
+(uuid "a7734411-3038-4a24-a0b6-b5e0d1121bb6"))
+		(pin "2"
+(uuid "403f3ac1-c210-4ee5-8605-e661c7a2692b"))
+		(instances
+			(project ""
+				(path "/51922d34-ad55-4a71-9876-716a226b3d21"
+(reference "R2")
+(unit 1)))))
+	(symbol
+(lib_id "Device:C")
+(at 215.90 86.36 180)
+(unit 1)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(dnp no)
+(fields_autoplaced yes)
+(uuid "78924f8b-9875-48af-b74c-c4eba025ec0a")
+		(property "Reference" "C12"
+(at 218.44 85.09 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Value" "33nF"
+(at 218.44 87.63 0)
+			(effects
+				(font
+(size 1.27 1.27))))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+(at 215.90 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Datasheet" "~"
+(at 215.90 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Description" ""
+(at 215.90 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "MPN" "CL10B333KB8NNNC"
+(at 215.90 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "LCSC" "C21117"
+(at 215.90 86.36 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(pin "1"
+(uuid "16a188fb-488f-4071-9844-e432879a133f"))
+		(pin "2"
+(uuid "6547ea88-3787-4d3a-8228-cc1b2299c6d1"))
+		(instances
+			(project ""
+				(path "/51922d34-ad55-4a71-9876-716a226b3d21"
+(reference "C12")
 (unit 1)))))
 	(sheet_instances
 		(path "/"
