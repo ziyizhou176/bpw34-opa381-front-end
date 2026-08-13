@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FrontEnd_Custom")(type "KiCad")(uri "${KIPRJMOD}/lib/FrontEnd_Custom.kicad_sym")(options "")(descr "Project-specific BPW34/OPA381 front-end symbols"))
+)
