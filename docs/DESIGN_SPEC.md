@@ -99,6 +99,11 @@ Feedback:
 
 ## 7. Calibration network
 
+- KiCad implementation reference mapping:
+  - Functional name RCAL -> KiCad reference R3. R3 remains the 100 MΩ calibration resistor.
+  - Functional name SJCAL -> KiCad reference SJ1. SJ1 remains the normally-open SJCAL jumper.
+  - Functional name TP_CAL -> KiCad reference TP10. TP10 remains the CAL_IN calibration test point.
+  - PCB silkscreen may retain the functional labels `SJCAL`, `OPEN`, and `TP_CAL`.
 - TP_CAL -> CAL_IN
 - RCAL = 100 MΩ, 1%, `CAL_IN -> CAL_R_NODE`
 - SJCAL normally open:
