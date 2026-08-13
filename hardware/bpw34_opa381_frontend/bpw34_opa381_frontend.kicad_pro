@@ -12,7 +12,15 @@
     },
     "layer_pairs": [],
     "layer_presets": [],
-    "viewports": []
+    "viewports": [],
+    "design_settings": {
+      "meta": {
+        "version": 2
+      },
+      "rules": {
+        "min_clearance": 0.15
+      }
+    }
   },
   "boards": [],
   "component_class_settings": {

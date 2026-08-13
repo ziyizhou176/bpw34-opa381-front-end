@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "U3 internal pad-to-pad clearance"
+  (constraint clearance (min 0.15mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U3') && B.memberOfFootprint('U3') && A.Net != B.Net")
+)

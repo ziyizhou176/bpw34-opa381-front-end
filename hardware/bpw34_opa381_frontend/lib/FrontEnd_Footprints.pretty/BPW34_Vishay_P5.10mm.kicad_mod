@@ -122,16 +122,6 @@
 		(uuid "e623d21d-5f48-4b22-a835-75c7e18ef013")
 	)
 	(fp_line
-		(start 4.55 -1.15)
-		(end 4.55 1.15)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e623d21d-5f48-4b22-a835-75c7e18ef014")
-	)
-	(fp_line
 		(start 4.875 -2.15)
 		(end 4.875 -1.25)
 		(stroke
@@ -335,6 +325,16 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(fp_line
+		(start 3.8 -1.15)
+		(end 3.8 -0.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e623d21d-5f48-4b22-a835-75c7e18ef014")
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
