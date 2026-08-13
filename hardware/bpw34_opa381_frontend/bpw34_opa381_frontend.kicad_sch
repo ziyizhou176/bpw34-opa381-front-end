@@ -2685,7 +2685,7 @@
 			(effects
 				(font
 (size 1.27 1.27))))
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
 (at 38.10 50.80 0)
 			(effects
 				(font
@@ -2698,6 +2698,24 @@
 (size 1.27 1.27))
 (hide yes)))
 		(property "Description" ""
+(at 38.10 50.80 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "Manufacturer" "JST"
+(at 38.10 50.80 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "MPN" "S3B-PH-SM4-TB(LF)(SN)"
+(at 38.10 50.80 0)
+			(effects
+				(font
+(size 1.27 1.27))
+(hide yes)))
+		(property "LCSC" "C265101"
 (at 38.10 50.80 0)
 			(effects
 				(font
@@ -4713,13 +4731,22 @@
 		(property "Value" "Conn_01x02"
 			(at 34.29 119.38 0)
 			(effects (font (size 1.27 1.27)) ))
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 35.56 124.46 0)
 			(effects (font (size 1.27 1.27)) (hide yes) ))
 		(property "Datasheet" "~"
 			(at 35.56 124.46 0)
 			(effects (font (size 1.27 1.27)) (hide yes) ))
 		(property "Description" ""
+			(at 35.56 124.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes) ))
+		(property "Manufacturer" "JST"
+			(at 35.56 124.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes) ))
+		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 35.56 124.46 0)
+			(effects (font (size 1.27 1.27)) (hide yes) ))
+		(property "LCSC" "C295747"
 			(at 35.56 124.46 0)
 			(effects (font (size 1.27 1.27)) (hide yes) ))
 		(pin "1" (uuid "1012c8f1-e731-589b-815d-063eb4ddd788"))

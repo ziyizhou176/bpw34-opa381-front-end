@@ -23,6 +23,14 @@ Weak optical signal measurement front-end for an STM32G431-based instrument. The
 | 1 | CAL_IN | External calibration voltage |
 | 2 | AGND | Calibration return |
 
+### Production connector freeze
+
+- J1: JST `S3B-PH-SM4-TB(LF)(SN)`, LCSC `C265101`, 3-pin PH 2.0 mm, right-angle SMD.
+- J2: JST `S2B-PH-SM4-TB(LF)(SN)`, LCSC `C295747`, 2-pin PH 2.0 mm, right-angle SMD.
+- Both connectors are side-entry/right-angle; their mating sides must face the outside of the PCB.
+- Placement must follow the Pin 1 / circuit-number marker. Do not describe pin order using only “left” or “right”.
+- Minimum courtyard is approximately 11.2 mm x 10.2 mm for J1 and 9.2 mm x 10.2 mm for J2.
+
 ## 3. Power chain
 
 - `+5V_IN -> FB1 -> +5V_FILTER`
